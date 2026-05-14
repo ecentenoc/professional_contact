@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Centeno | Professional Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #e0e0e0; 
+            background-image: url('architectural-portfolio-background.png');
+            background-color: #121212; 
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            padding: 40px; 
+            border-radius: 16px; 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            background-color: rgba(30, 30, 30, 0.75); 
+            backdrop-filter: blur(16px); 
+            -webkit-backdrop-filter: blur(16px); 
+            box-sizing: border-box; 
+        }
+
+        h1 {
+            font-weight: 600;
+            margin-top: 0; 
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+            font-size: 2.5em; 
+        }
+
+        .role {
+            color: #b0b0b0; 
+            margin-top: 0;
+            margin-bottom: 25px; 
+            font-size: 1.1em;
+            line-height: 1.4; 
+        }
+
+        .link-button {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%;
+            background-color: #1e1e1e; 
+            color: #e0e0e0;
+            padding: 18px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: background-color 0.2s, transform 0.1s;
+            border: 1px solid #444;
+            box-sizing: border-box;
+        }
+
+        .link-button i {
+            margin-right: 10px;
+            font-size: 1.2em; 
+        }
+
+        .link-button:hover {
+            background-color: #2a2a2a;
+        }
+
+        .link-button:active {
+            transform: translateY(1px);
+        }
+
+        .cv-button {
+            background-color: #e0e0e0;
+            color: #121212;
+            border: none;
+        }
+
+        .cv-button:hover {
+            background-color: #b0b0b0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #aaa; 
+        }
+        
+        .footer p {
+            margin: 0; 
+        }
+
+        @media (max-width: 400px) {
+            h1 { font-size: 2em; } 
+            .role { font-size: 1em; } 
+            .link-button { padding: 15px; font-size: 1em; }
+            .container { padding: 25px; } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eduardo Centeno</h1>
+        <p class="role">Software Architect | Tech Lead<br>Senior Software Engineer</p>
+        <p class="role">Specializing in mission-critical systems & cloud architecture.</p>
+
+        <a href="https://www.linkedin.com/in/ecentenoc/" class="link-button" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i> View LinkedIn Profile
+        </a>
+
+        <a href="https://github.com/ecentenoc" class="link-button" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i> View GitHub Profile
+        </a>
+
+        <a href="Senior Software Engineer - Eduardo_Centeno.pdf" class="link-button cv-button" download>
+            <i class="fa-solid fa-file-pdf"></i> Download CV (PDF)
+        </a>
+
+        <div class="footer">
+            <p>Connecting you to my professional profile.</p>
+        </div>
+    </div>
+</body>
+</html>
